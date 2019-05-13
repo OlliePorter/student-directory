@@ -40,5 +40,7 @@ def print_footer(names)
 end
 
 students = input_students
-print(students)
-print_footer(students)
+if students.length >= 1
+  print(students)
+  print_footer(students)
+end
